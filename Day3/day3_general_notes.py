@@ -78,26 +78,58 @@
 # Extra cheese for any size pizza: + $1
 
 # 🚨 Don't change the code below 👇
-print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L ")
-add_pepperoni = input("Do you want pepperoni? Y or N ")
-extra_cheese = input("Do you want extra cheese? Y or N ")
-# 🚨 Don't change the code above 👆
+# print("Welcome to Python Pizza Deliveries!")
+# size = input("What size pizza do you want? S, M, or L ")
+# add_pepperoni = input("Do you want pepperoni? Y or N ")
+# extra_cheese = input("Do you want extra cheese? Y or N ")
+# # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
-price = 0
-if size.lower() == "l":
-    price += 25
-elif size.lower() == "m":
-    price += 20
-else:
-    price += 15
-if add_pepperoni == "Y":
-    if size == "L" or size == "M":
-        price += 3
-    else:
-        price += 2
-if extra_cheese == "Y":
-    price += 1
+# #Write your code below this line 👇
+# price = 0
+# if size.lower() == "l":
+#     price += 25
+# elif size.lower() == "m":
+#     price += 20
+# else:
+#     price += 15
+# if add_pepperoni == "Y":
+#     if size == "L" or size == "M":
+#         price += 3
+#     else:
+#         price += 2
+# if extra_cheese == "Y":
+#     price += 1
 
-print(f"your final bill is ${price}")
+# print(f"your final bill is ${price}")
+# _____________________________________________________
+# # Exercise 3.5 Love calculator
+# # 🚨 Don't change the code below 👇
+# print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n").upper()#input("What is your name? \n")
+# name2 = input("What is their name? \n").upper()#input("What is their name? \n")
+# # 🚨 Don't change the code above 👆
+
+# #Write your code below this line 👇
+
+# names = name1+name2
+
+# list_of_true = ["T", "R", "U", "E"]
+# list_of_love = ["L","O","V","E"]
+
+
+# count1 = 0
+# count2 = 0
+# for i in range(len(list_of_true)):
+#     count1 += names.count(list_of_true[i])
+#     print(count1)
+# for i in range(len(list_of_love)):
+#     count2 += names.count(list_of_love[i])
+
+# total_count = int(str(count1)+str(count2))
+# print(count1, count2)
+# if total_count<10 and total_count>90:
+#     print(f"Your score is {total_count}, you go together like coke and mentos.")
+# elif total_count > 40 and total_count < 50: 
+#     print(f"Your score is {total_count}, you are alright together.")
+# else:
+#     print(f"Your score is {total_count}.")
